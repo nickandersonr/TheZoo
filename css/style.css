@@ -1,0 +1,58 @@
+body {
+  background: #CCC;
+}
+nav {
+  background: purple;
+}
+nav a {
+  color: white;
+}
+h1 {
+  color: purple;
+}
+
+
+ol li {
+  color: pink;
+}
+
+.urgent {
+  font-style: bold;
+  font-size: 2em;
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+.product .price .original {
+  color: #000;
+}
+.product.sale .price .original {
+  color: red;
+}
+
+.product .price .sale {
+  display: none;
+}
+.product.sale .price .sale  {
+  display: block;
+}
+
+
+.responsive {
+  max-width: 100%;
+}
+
+.sidebyside img {
+  width: 48%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+  .sidebyside img {
+    width: 100%;
+  }
+}
